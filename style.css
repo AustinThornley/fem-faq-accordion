@@ -1,3 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-size: 12px;
+  background-image: linear-gradient(
+    359deg,
+    hsl(240, 73%, 65%),
+    hsl(273, 75%, 66%)
+  );
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-card-title {
+  text-decoration: none;
+  color: #000;
+}
+
+.open a {
+  font-weight: bold;
+}
+
+.icon-open {
+  transform: scale(1, -1);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
