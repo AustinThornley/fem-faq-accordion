@@ -43,6 +43,12 @@ main {
   z-index: 1;
 }
 
+.line {
+  height: 1px;
+  background: red;
+  width: 250px;
+}
+
 .card-header {
   padding-top: 137px;
 }
@@ -61,10 +67,20 @@ main {
   padding-bottom: 2rem;
 }
 
+.faq-card {
+  width: 300px;
+  text-align: left;
+  padding: 1rem;
+}
+
 .faq-card-title {
   text-decoration: none;
   color: #000;
   font-weight: 400;
+}
+
+.faq-card-icon {
+  float: right;
 }
 
 .hidden {
