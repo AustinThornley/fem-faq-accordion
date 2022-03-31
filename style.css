@@ -45,8 +45,8 @@ main {
 
 .line {
   height: 1px;
-  background: red;
-  width: 250px;
+  background: hsl(240, 5%, 91%);
+  width: 275px;
 }
 
 .card-header {
